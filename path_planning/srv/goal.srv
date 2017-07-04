@@ -1,0 +1,4 @@
+#float64 goal_cell_x
+#float64 goal_cell_y
+---
+bool success

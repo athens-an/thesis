@@ -1,0 +1,29 @@
+map_topic: /map
+
+velocity_topic: /robot0/cmd_vel
+
+position_topic: /art_robot
+
+dynamic_counter: /dynamic_counter
+
+dynamic_topic: /dynamic_obst
+
+replanning_counter: /replanning_counter
+
+#~ target_topic: /target_topic
+
+step_node: 20
+
+duration: 1
+
+time: 1
+
+distance_limit: 0.1
+
+yaw_limit: 0.95
+
+dis_to_target: 0.1
+
+brushfire_const: 1000
+
+brushfire_limit: 13

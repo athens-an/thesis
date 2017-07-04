@@ -1,0 +1,42 @@
+map_topic: /map
+
+# robot_laser_topic: /scan
+robot_laser_topic: /robot0/laser_0
+
+position_topic: /art_robot_tensor
+
+# velocity_topic: /mobile_base/commands/velocity
+velocity_topic: /robot0/cmd_vel
+odometry_topic: /odom
+
+
+target_topic: /target_pose
+
+
+subsampling_step: 70
+
+particles_number: 7000
+
+enable_visualization: true
+
+# 0 < strictness < oo (0.7 ~ 1.0 is good)
+resampling_strictness: 1.5
+
+a1: 0.01
+# a1: 0.1
+a2: 0.001
+# a2: 0.05
+
+duration: 1
+
+rfid_reader_topic: /robot0/rfid_reader_0
+
+rfid_tags_topic: /stdr_server/rfid_list
+
+known_initial_pose: true
+initial_pose_x: 6
+initial_pose_y: 3
+initial_pose_theta: 0
+
+a: 200
+
